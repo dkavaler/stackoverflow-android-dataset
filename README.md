@@ -8,6 +8,7 @@ Columns correspond to Table 1 in the paper.
 
 Columns: apk, gatherdate, api, callcount
 Note: Some APIs will not correspond exactly to actual Android APIs, as some APKs are obfuscated and partially match a real Android API name. These can be filtered out by cross-referencing with a real list of Android APIs, which was done in our work.
+
 | Column | Description |
 | ------ | ----------- |
 | apk | Name of the APK gathered from the Google Play store |
