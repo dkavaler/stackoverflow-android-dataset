@@ -1,4 +1,4 @@
-This repository contains data for the paper: When Stack Overflow Slows Down: Latency of Answers to Questions About New Android APIs.
+This repository contains data for the paper: Amount, Quality, and Latency of Answers on Stack Overflow to Questions About Recent APIs
 
 # post_data.gz (post_data.csv)
 
@@ -15,3 +15,7 @@ Note: Some APIs will not correspond exactly to actual Android APIs, as some APKs
 | gatherdate | Date that the APK was gathered by our crawler |
 | api | Fully qualified class name for an API call. |
 | callcount | Number of calls within the specified APK to the given API |
+
+# apk_list.csv
+
+Contains a list of all unique APKs used in analysis.
